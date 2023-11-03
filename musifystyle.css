@@ -1,0 +1,161 @@
+body{
+    background-image: url('bricks.jpg');
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: "sans-serif";
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.button {
+    background-color: #04AA6D;
+    border: white;
+    border-style: solid;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+
+}
+
+.button:hover{
+    box-shadow: 0 0 10px white;
+}
+
+#profile {
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container1{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: "sans-serif";
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('edsheeran1.webp');
+    background-size: contain;
+
+}
+
+.container2{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: "sans-serif";
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('eminem1.webp');
+    background-size: contain;
+}
+
+.container3{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: "sans-serif";
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('drake.webp');
+    background-size: contain;
+}
+
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 130px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 14px; 
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 74px;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    
+    color: black;
+    margin: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+
+.songItem i{
+    cursor: pointer;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
